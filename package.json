@@ -1,15 +1,36 @@
 {
   "name": "resume-mailer",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js utility for sending personalized job application emails with a resume attachment to multiple recruiters using Gmail and Nodemailer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "nodemailer",
+    "gmail",
+    "email-automation",
+    "resume",
+    "job-search",
+    "recruitment",
+    "automation",
+    "mailer",
+    "job-applications"
+  ],
+  "author": "Talha Akhter",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TKAkhter/node-resume-mailer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TKAkhter/node-resume-mailer/issues"
+  },
+  "homepage": "https://github.com/TKAkhter/node-resume-mailer#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "nodemailer": "^9.0.0"
